@@ -1,0 +1,4 @@
+{
+  // Extensions recommended for this workspace
+  "recommendations": ["esbenp.prettier-vscode"]
+}
