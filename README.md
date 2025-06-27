@@ -1,6 +1,5 @@
 # Tracker in React
 
-
 ## Developer setup
 
 There is a `devcontainer`, but save your money by running it locally using Docker.
@@ -11,6 +10,15 @@ This allows `uv` dependencies to instal on container start.
 1. In VS Code install [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 1. Clone the repo
 1. Open the repo using the "Dev Containers: Open Folder in Container" command in VS Code
+
+When running this in a container, you will need to setup your git config in order to commit code.
+
+Execute the following:
+
+```bash
+git config --global user.email "<your email>"
+git config --global user.name "<your name>"
+```
 
 ## Requirements
 
