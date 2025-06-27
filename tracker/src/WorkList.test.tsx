@@ -7,5 +7,6 @@ describe(WorkList, () => {
     render(<WorkList />);
 
     expect(screen.getByTestId("work-list")).not.toBeUndefined();
+    expect(screen.getByTestId("btn-add")).not.toBeUndefined();
   });
 });
