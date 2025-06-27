@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "test": "npm run -w tracker test"
+    },
+    "workspaces": ["tracker"]
+}
