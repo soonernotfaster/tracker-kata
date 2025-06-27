@@ -24,4 +24,32 @@ git config --global user.name "<your name>"
 
 [Resources](#Resources) are after the feature descriptions.
 
-### User Story
+### User Stories
+
+As a product manager
+I want to add work items to the backlog
+So that the development team can implement them
+
+As a product manager
+I want work items to persist when I reload the page
+So that I can work across multiple sessions
+
+As a product manager
+I want to reorder items to the backlog
+So that I can steer the project
+
+As a product manager
+I want to be able to add descriptions
+So that I can share acceptence criteria with the team
+
+As a developer
+I want to be able to estimate a work item
+So that I can set expectations about delivery
+
+As a developer
+I want to be able change the status of a work item
+So that I can communicate progress
+
+As a developer
+I want to be able to comment on a work item
+So that I can communicate progress and share technical notes
