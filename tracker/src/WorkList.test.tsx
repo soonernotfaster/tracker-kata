@@ -12,6 +12,7 @@ describe(WorkList, () => {
 
       await waitFor(() => {
         expect(screen.getByTestId("work-item-1")).not.toBeUndefined();
+        expect(screen.getByTestId("work-item-1").innerText).not.toBeUndefined();
       });
     });
   });
