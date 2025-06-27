@@ -1,5 +1,5 @@
 function WorkList() {
-  return null;
+  return <div data-testid="work-list"></div>;
 }
 
 export default WorkList;
